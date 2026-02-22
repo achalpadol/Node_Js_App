@@ -10,7 +10,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: "${https://github.com/achalpadol/Node_Js_App.git}"
+                git url: 'https://github.com/achalpadol/Node_Js_App.git', branch: 'main'
             }
         }
 
