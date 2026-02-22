@@ -36,7 +36,7 @@ pipeline {
             echo 'Deployment Successful'
         }
         failure {
-            echo 'Build Failed'
+            echo 'Build Failed app'
         }
     }
 }
